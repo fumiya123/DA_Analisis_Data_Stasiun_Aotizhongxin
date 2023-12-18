@@ -8,7 +8,7 @@ sns.set(style='dark')
 from datetime import datetime
 from datetime import timedelta
 
-all_df = pd.read_csv("main_data.csv")
+all_df = pd.read_csv('https://raw.githubusercontent.com/fumiya123/DA_Analisis_Data_Stasiun_Aotizhongxin/main/dashboard/main_data.csv')
 day_df = pd.read_csv('https://raw.githubusercontent.com/fumiya123/DA_Analisis_Data_Stasiun_Aotizhongxin/main/dashboard/data_day.csv')
 st.header('Dashboard Index Kualitas Udara Stasiun Aotizhongxin')
 
